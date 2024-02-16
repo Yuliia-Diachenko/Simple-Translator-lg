@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base styles -->
+
+    <style name="MontserratThin">
+        <item name="android:fontFamily">@font/montserrat_thin</item>
+    </style>
+
+    <style name="MontserratThin.Italic">
+        <item name="android:fontFamily">@font/montserrat_thin_italic</item>
+    </style>
+
+    <style name="MontserratExtraLight">
+        <item name="android:fontFamily">@font/montserrat_extra_light</item>
+    </style>
+
+    <style name="MontserratExtraLight.Italic">
+        <item name="android:fontFamily">@font/montserrat_extra_light_italic</item>
+    </style>
+
+    <style name="MontserratLight">
+        <item name="android:fontFamily">@font/montserrat_light</item>
+    </style>
+
+    <style name="MontserratLight.Italic">
+        <item name="android:fontFamily">@font/montserrat_light_italic</item>
+    </style>
+
+    <style name="MontserratRegular">
+        <item name="android:fontFamily">@font/montserrat_regular</item>
+    </style>
+
+    <style name="MontserratRegular.Italic">
+        <item name="android:fontFamily">@font/montserrat_italic</item>
+    </style>
+
+    <style name="MontserratMedium">
+        <item name="android:fontFamily">@font/montserrat_medium</item>
+    </style>
+
+    <style name="MontserratMedium.Italic">
+        <item name="android:fontFamily">@font/montserrat_medium_italic</item>
+    </style>
+
+    <style name="MontserratSemiBold">
+        <item name="android:fontFamily">@font/montserrat_semi_bold</item>
+    </style>
+
+    <style name="MontserratSemiBold.Italic">
+        <item name="android:fontFamily">@font/montserrat_semi_bold_italic</item>
+    </style>
+
+    <style name="MontserratBold">
+        <item name="android:fontFamily">@font/montserrat_bold</item>
+    </style>
+
+    <style name="MontserratBold.Italic">
+        <item name="android:fontFamily">@font/montserrat_bold_italic</item>
+    </style>
+
+    <style name="MontserratExtraBold">
+        <item name="android:fontFamily">@font/montserrat_extra_bold</item>
+    </style>
+
+    <style name="MontserratExtraBold.Italic">
+        <item name="android:fontFamily">@font/montserrat_extra_bold_italic</item>
+    </style>
+
+    <style name="MontserratBlack">
+        <item name="android:fontFamily">@font/montserrat_black</item>
+    </style>
+
+    <style name="MontserratBlack.Italic">
+        <item name="android:fontFamily">@font/montserrat_black_italic</item>
+    </style>
+
+    <style name="Headline1" parent="MontserratLight">
+        <item name="android:textSize">@dimen/textSizeHeadline1</item>
+    </style>
+
+    <style name="Headline2" parent="MontserratLight">
+        <item name="android:textSize">@dimen/textSizeHeadline2</item>
+    </style>
+
+    <style name="Headline3" parent="MontserratRegular">
+        <item name="android:textSize">@dimen/textSizeHeadline3</item>
+    </style>
+
+    <style name="Headline4" parent="MontserratRegular">
+        <item name="android:textSize">@dimen/textSizeHeadline4</item>
+    </style>
+
+    <style name="Headline5" parent="MontserratRegular">
+        <item name="android:textSize">@dimen/textSizeHeadline5</item>
+    </style>
+
+    <style name="Headline6" parent="MontserratRegular">
+        <item name="android:textSize">@dimen/textSizeHeadline6</item>
+    </style>
+
+    <style name="Subtitle1" parent="MontserratRegular">
+        <item name="android:textSize">@dimen/textSizeSubtitle1</item>
+    </style>
+
+    <style name="Subtitle2" parent="MontserratMedium">
+        <item name="android:textSize">@dimen/textSizeSubtitle2</item>
+    </style>
+
+    <style name="Body1" parent="MontserratRegular">
+        <item name="android:textSize">@dimen/textSizeBody1</item>
+    </style>
+
+    <style name="Body2" parent="MontserratRegular">
+        <item name="android:textSize">@dimen/textSizeBody2</item>
+    </style>
+
+    <style name="Caption" parent="MontserratRegular">
+        <item name="android:textSize">@dimen/textSizeCaption</item>
+    </style>
+
+    <!-- Views styles -->
+
+    <style name="LanguageButtonStyle" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/textSizeButton</item>
+    </style>
+
+    <style name="AppTitleStyle" parent="Headline6">
+        <item name="android:textColor">@color/colorTextBackdropBack</item>
+    </style>
+
+</resources>
